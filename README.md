@@ -27,11 +27,11 @@ Observed Issues
 **Problem**: **FAISS** retrieves chunks based on semantic similarity, but irrelevant chunks may still rank high if query terms loosely match unrelated sections.
 Example: For "What are your core beliefs regarding technology?" (Cell 49), the retriever includes chunks about education and experience alongside philosophy, diluting focus.
 Cause: Broad chunk size (700 characters) and overlap (100 characters) may include extraneous context.
-#### Generator Hallucination:
+#### Generator Relevance:
 **Problem**: **fastchat-t5-3b-v1.0** sometimes generates details not present in the retrieved context, especially for open-ended questions.
-Example: ("How do you think cultural values should influence technological advancements?"), the response lists "1. Respect for diversity, 2. Privacy, 3. Community needs, 4."—the fourth point is cut off, and some elaboration (e.g., "does not discriminate") exceeds the source document (Personal_Info-4.pdf).
-Cause: T5’s generative nature fills gaps when context is sparse, despite temperature=0.
-Prompt Misalignment:
+- Example: ("How do you think cultural values should influence technological advancements?"), the response lists "1. Respect for diversity, 2. Privacy, 3. Community needs, 4."—the fourth point is cut off, and some elaboration (e.g., "does not discriminate") exceeds the source document (Personal_Info-4.pdf).
+- Cause: T5’s generative nature fills gaps when context is sparse, despite temperature=0.
+Prompt: 
 Problem: The original "PattyBot" prompt was overly general, leading to responses drifting from personal info. The custom "InfoBuddy" prompt mitigates this but still inherits some generator tendencies.
 Example: Answers occasionally include speculative content (e.g., "technology can be used to manipulate") beyond the document’s scope.
 Proposed Solutions
@@ -39,7 +39,7 @@ Retriever Tuning:
 Reduce chunk_size (e.g., to 500) and adjust chunk_overlap (e.g., to 50) for tighter relevance.
 Increase retriever k (top-k results) and filter with a relevance threshold.
 Generator Improvement:
-Switch to a stronger model like meta-llama/Llama-7b-hf or gpt-3.5-turbo (explored in Task 1) for better context adherence.
+Switch to a stronger model like **meta-llama/Llama-7b-hf** or **gpt-3.5-turbo** (explored in Task 1) for better context adherence.
 Add a post-processing step to strip hallucinated content not grounded in retrieved documents.
 
 ## Chatbot Development - Web Application Development
