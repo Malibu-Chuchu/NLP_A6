@@ -21,8 +21,7 @@ The RAG system combines a retriever to fetch relevant document chunks and a gene
 - Pipeline: Integrated via HuggingFacePipeline in LangChain.
 
 **2. Analysis of Issues with Unrelated Information**
-The RAG system occasionally provides unrelated or hallucinated information, which was analyzed based on model outputs. \n
-- **This are the issues that observed after performing Retriver and Generator**
+The RAG system occasionally provides unrelated or hallucinated information, which was analyzed based on model outputs, below are **issues that observed after performing Retriever and Generator**
 #### Retriever Relevance:
 - Problem: **FAISS** retrieves chunks based on semantic similarity, but irrelevant chunks may still rank high if query terms loosely match unrelated sections.
 - Example: For "What are your core beliefs regarding technology?", the retriever includes chunks about education and experience alongside philosophy, diluting focus.
