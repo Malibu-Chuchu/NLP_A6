@@ -31,7 +31,7 @@ The RAG system occasionally provides unrelated or hallucinated information, whic
 - Example: ("How do you think cultural values should influence technological advancements?"), the response lists "1. Respect for diversity, 2. Privacy, 3. Community needs, 4."—the fourth point is cut off, and some elaboration (e.g., "does not discriminate") exceeds the source document (Personal_Info-4.pdf).
 - Cause: T5’s generative nature fills gaps when context is sparse, despite temperature=0.
 #### Prompt: 
-- Problem: The original "PattyBot" prompt was overly general, leading to responses drifting from personal info. The custom "InfoBuddy" prompt mitigates this but still inherits some generator tendencies.
+- Problem: The original "PattyBot" prompt was overly general, leading to responses drifting from personal info.
 - Example: Answers occasionally include speculative content (e.g., "technology can be used to manipulate") beyond the document’s scope.
 #### Proposed Solutions
 **Retriever Tuning:**
