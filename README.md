@@ -10,4 +10,4 @@ This repository contains a Retrieval-Augmented Generation (RAG) chatbot built us
 ## Analysis and Problem Solving
 
 ## Chatbot Development - Web Application Development
-- Link to VDO: https://youtube.com/shorts/AIsWR20iIIU?feature=share
+- Link to VDO: https://youtube.com/shorts/lkY2shog6KI
