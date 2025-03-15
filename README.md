@@ -39,6 +39,7 @@ The RAG system occasionally provides unrelated or hallucinated information, whic
 - Increase retriever k (top-k results) and filter with a relevance threshold.
 **Generator Improvement:**
 - Switch to a stronger model like **meta-llama/Llama-7b-hf** or **gpt-3.5-turbo** (explored in Task 1) for better context adherence.
+- The reason that i cannot use Llama is that im not meet the criteria for downloading from META, and for GPT 3.5 i have a limit access for GPT.
   
 ## Chatbot Development - Web Application Development
 - Link to VDO: https://youtube.com/shorts/lkY2shog6KI
