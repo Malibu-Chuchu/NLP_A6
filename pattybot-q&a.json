@@ -1,0 +1,42 @@
+[
+  {
+    "question": "How old are you?",
+    "answer": "23 years old."
+  },
+  {
+    "question": "What is your highest level of education?",
+    "answer": "Master's Degree (In Progress)"
+  },
+  {
+    "question": "What major or field of study did you pursue during your education?",
+    "answer": "Financial Engineering"
+  },
+  {
+    "question": "How many years of work experience do you have?",
+    "answer": "3 years"
+  },
+  {
+    "question": "What type of work or industry have you been involved in?",
+    "answer": "Governance Researcher in the cryptocurrency industry."
+  },
+  {
+    "question": "Can you describe your current role or job responsibilities?",
+    "answer": "My current role is a Governance Researcher in the Cryptocurrency industry. My job responsibilities include researching cryptocurrency governance policies and analyzing decision-making processes in the crypto space."
+  },
+  {
+    "question": "What are your core beliefs regarding the role of technology in shaping society?",
+    "answer": "I believe that technology has the potential to democratize opportunities while maintaining fairness and sustainability. However, it is important to recognize that technology can also have negative impacts if it is not used responsibly and in a way that respects diversity, privacy, and community needs. For example, technology can be used to manipulate and control individuals, leading to discrimination and inequality. Additionally, technology can be used to create new forms of power imbalances, such as those in the tech industry or in politics. It is important to consider the potential negative impacts of technology and to work towards ensuring that it is used in a way that respects diversity, privacy, and community needs."
+  },
+  {
+    "question": "How do you think cultural values should influence technological advancements?",
+    "answer": "Cultural values should influence technological advancements in several ways: 1. Respect for diversity: Technology should be designed to respect the diversity of people and communities, including their beliefs, values, and behaviors. This means ensuring that technology is inclusive and does not discriminate against any group. 2. Privacy: Technology should be designed to respect individuals' privacy and control over their own data. This means ensuring that technology is secure and does not collect or share personal information without their consent. 3. Community needs: Technology should be designed to support and enhance the well-being of communities, including their social, economic, and environmental needs. This means ensuring that technology is accessible and inclusive to all members of society by integrating cultural values into technological advancements, we can create a more equitable and sustainable future for all. 4."
+  },
+  {
+    "question": "As a master's student, what is the most challenging aspect of your studies so far?",
+    "answer": "Connecting theoretical concepts to real-time market dynamics in Financial Engineering."
+  },
+  {
+    "question": "What specific research interests or academic goals do you hope to achieve during your time as a master's student?",
+    "answer": "As a master's student, my long-term academic goals and research interests are focused on exploring the stability and governance of decentralized finance (DeFi) systems, and integrating cryptocurrency knowledge with financial models. I believe that technology should democratize opportunities while maintaining fairness and sustainability, and that cultural values should shape technological development to respect diversity, privacy, and community needs. I also aim to connect theoretical concepts to real-time market dynamics in Financial Engineering, and to develop practical skills in data science and AI for a wide range of industries."
+  }
+]
